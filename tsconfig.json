@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es6",
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
@@ -12,7 +12,9 @@
     "noUnusedParameters": true,
     "suppressImplicitAnyIndexErrors": false,
     "declaration": true,
-    "lib": ["es6", "dom"]
+    "lib": ["es6", "dom","ES2022"],
+    "baseUrl": "./",
+    "outDir": "./dist",
   },
   "exclude": ["node_modules", "**/*.spec.ts"],
   "angularCompilerOptions": {
