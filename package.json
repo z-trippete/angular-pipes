@@ -1,8 +1,11 @@
 {
-  "name": "@trippete/angular-pipes",
-  "version": "11.0.0",
+  "name": "@z-trippete/angular-pipes",
+  "version": "16.0.0",
   "description": "Angular pipes library",
-  "private": false,
+  "repository": "https://github.com/z-trippete/angular-pipes.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "cover": "cat ./coverage/*/lcovonly | ./node_modules/.bin/coveralls",
     "karma": "node_modules/.bin/karma start karma.conf.js",
@@ -14,10 +17,6 @@
     "release": "npm run packagr && cd dist && npm publish --access=public"
   },
   "author": "Zucchetti Hospitality",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/z-trippete/angular-pipes"
-  },
   "keywords": [
     "ng2",
     "ng",
