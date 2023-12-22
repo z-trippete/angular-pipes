@@ -1,6 +1,6 @@
 {
   "name": "@z-trippete/angular-pipes",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "Angular pipes library",
   "repository": "https://github.com/z-trippete/angular-pipes.git",
   "publishConfig": {
@@ -29,14 +29,14 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@angular/animations": "^16.2.2",
-    "@angular/common": "^16.2.2",
-    "@angular/compiler": "^16.2.2",
-    "@angular/compiler-cli": "^16.2.2",
-    "@angular/core": "^16.2.2",
-    "@angular/platform-browser": "^16.2.2",
-    "@angular/platform-browser-dynamic": "^16.2.2",
-    "@angular/platform-server": "^16.2.2",
+    "@angular/animations": "^17.0.8",
+    "@angular/common": "^17.0.8",
+    "@angular/compiler": "^17.0.8",
+    "@angular/compiler-cli": "^17.0.8",
+    "@angular/core": "^17.0.8",
+    "@angular/platform-browser": "^17.0.8",
+    "@angular/platform-browser-dynamic": "^17.0.8",
+    "@angular/platform-server": "^17.0.8",
     "@types/jasmine": "^4.3.5",
     "core-js": "^3.32.1",
     "coveralls": "^3.1.1",
@@ -46,13 +46,13 @@
     "karma-jasmine": "^5.1.0",
     "karma-spec-reporter": "0.0.36",
     "karma-typescript": "^5.5.4",
-    "ng-packagr": "^16.2.2",
+    "ng-packagr": "^17.0.2",
     "prettier": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2",
-    "typescript": "4.9.5",
-    "zone.js": "~0.13.1"
+    "typescript": "^5.2.2",
+    "zone.js": "~0.14.2"
   },
   "dependencies": {},
   "prettier": {
